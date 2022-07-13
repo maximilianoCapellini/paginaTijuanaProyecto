@@ -1,0 +1,414 @@
+*{
+    padding: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/*estilos para nuestra home */
+
+.contendorHome .headerHome{
+    display: grid;
+    grid-template-columns:7fr;
+    grid-template-rows:2.5fr;
+    grid-template-areas:" headerHome ";   
+}
+.contendorHome .seccionCentral{
+    display: grid;
+    grid-template-columns:3.5fr 3.5fr;
+    grid-template-rows:3.5fr  ;
+    grid-template-areas:" divSeccion sectionRutini ";   
+}
+
+.contendorHome .footerHome{
+    display: grid;
+    grid-template-columns:7fr;
+    grid-template-rows:1fr  ;
+    grid-template-areas:" footerHome ";   
+}
+
+
+/* estilos aparte de grid */
+.piePagina{
+    background-color: orangered;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+header{
+    background-color: grey;
+    grid-area: headerhome;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vw;
+    border: 10px solid rgb(6, 5, 5);
+    justify-content: center;
+}
+header p{
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+ 
+}
+
+header nav ul li{
+    text-decoration:none;
+    list-style: none;
+      
+}
+
+header nav ul li a{
+    text-decoration:none;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    list-style:none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4vw;
+    border-radius:10px;
+    overflow: hidden;
+    font-weight: bold;
+    
+}
+
+.seccionCentral{
+    background-color: orange;
+    grid-area: seccionCentral ;
+    font-weight: bold;
+
+}
+main h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+main p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+    display: flex;
+    background-color: orangered;
+}
+
+.sectionRutini{
+    grid-area: sectionRutini;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+/*estilos footer home*/
+footer{
+    background-color: grey;
+    text-align: center;
+    grid-area: footer ;
+    font-weight: bold;
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/*estilos para  ubicacion*/
+.ubicacionPiePagina{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.absolutImagen{
+    text-align: center;
+}
+.ubicacionTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 10px solid black;
+
+}
+
+.navUbicacion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+/*estilos para productos*/
+
+.contendorProductos .headerProducto{
+    display: grid;
+    grid-template-columns:7fr;
+    grid-template-rows:2.5fr  ;
+    grid-template-areas:" headerProducto ";   
+}
+
+
+.contendorProductos .mainProductos {
+    display: grid;
+    grid-template-columns:7fr;
+    grid-template-rows:1fr 1fr 2.5fr;
+    grid-template-areas:"tablaProductos" 
+                        "fernetProductosTitulo"
+                        "contenedorMultimedia ";   
+}
+
+
+.contendorProductos .footerProductos {
+    display: grid;
+    grid-template-columns:7fr ;
+    grid-template-rows:1fr;
+    grid-template-areas:"footerProductos";   
+}
+
+
+
+.contenedorMultimedia{
+    grid-area: contenedorMultimedia;
+    width: 100%;
+}
+.headerProducto{
+    grid-area: headerProducto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerProductos{
+    grid-area: footerProductos;
+}
+/*estilos para productos aparte */
+.productosPiePagina{
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productosTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    border: 10px solid black;
+
+}
+.aperitivosProductos{
+    text-align: center;
+}
+
+/*elementos main productos*/
+
+.mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tablaAlinerar{
+    text-align: center;
+    table-layout: none;
+    font-weight: bold;
+
+    
+}
+.tablaProductos{
+    grid-area: tablaProductos;
+}
+.tablaProductos td{
+    font-size: 2.5vw;
+}
+.tablaProductos{
+    background-color: goldenrod;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+
+.fernetProductosTitulo{
+    background-color: orange;
+    font-size: 3vw;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.contenedorProductosImg{
+    text-align: center;
+    grid-area: contenedorProductosImg;
+}
+
+
+/*estilos para eventos*/
+.eventosPiePagina{
+    background-color: red;
+}
+.eventosTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 10px solid black;
+
+}
+.menuEventos{
+    background-color: orange;
+    padding: 100px;
+
+}
+.menuEventosSe ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    text-shadow: 1px 1px black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orangered;
+    position: relative;
+    text-align: center;
+
+}
+div ul li:hover{
+    background-color:blue;
+}
+div ul li .suBmenuEventos{
+    display: none;
+    position: absolute;
+    padding: 0px;
+
+}
+div ul li:hover >.suBmenuEventos{
+    display: block;
+}
+
+
+
+/*estilos para contacto*/
+.contactoPiePagina{
+    background-color: red;
+}
+.contactosTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 10px solid black;
+
+}
+.tablaColor{
+    background-color: orange;
+    text-align: center;
+}
+
+
+/*estilo para carritocompras*/
+.carritoPiePagina{
+    background-color: red;
+}
+
+.carritoTitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 10px solid black;
+
+}
+
+/*media queris*/
+@media screen and (max-width:600px){
+    .contendorHome .headerHome{
+        display: grid;
+        grid-template-columns:7fr;
+        grid-template-rows:2.5fr  ;
+        grid-template-areas:" headerHome ";   
+    }
+    .contendorHome .seccionCentral{
+        display: grid;
+        grid-template-columns:7fr ;
+        grid-template-rows:3.5fr 3.5fr;
+        grid-template-areas:" divSeccion"
+                             "sectionRutini";   
+    }
+    
+    .contendorHome .footerHome{
+        display: grid;
+        grid-template-columns:7fr;
+        grid-template-rows:1fr  ;
+        grid-template-areas:" footerHome ";   
+    }
+
+    .headerHome{
+        background-color: orange;
+    }
+    .menu{
+        background-color: black;
+    }
+}
+
+
+
+@media screen and (max-width:399px){
+    .sectionRutini{
+        display: none;
+    }
+    .contendorHome .seccionCentral{
+        display: grid;
+        grid-template-columns:7fr ;
+        grid-template-rows:3.5fr;
+        grid-template-areas:" divSeccion";   
+    }
+
+}
+
+
+
+/*media cuerin seccion productos*/
+@media screen and (max-width:600px){  
+    body{
+        background-color: burlywood;
+    }
+   .contenedorMultimedia{
+    display: none;
+   }
+    .contendorProductos .mainProductos {
+        display: grid;
+        grid-template-columns:7fr;
+        grid-template-rows:2.25fr 2.25fr;
+        grid-template-areas:"tablaProductos" 
+                            "fernetProductosTitulo";   
+    }
+
+}
+
+@media screen and (max-width:399px){  
+    body{
+        background-color: whitesmoke
+    }
+   
+
+}
+
+
+
+
