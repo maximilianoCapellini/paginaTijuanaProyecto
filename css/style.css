@@ -10,6 +10,9 @@
     background-image: linear-gradient(to left, grey, to right);
     height: 100%;
 }
+.menu:hover{
+    transform: translate(5,4);
+}
 
 .contendorHome .headerHome{
     display: grid;
