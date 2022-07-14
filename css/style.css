@@ -8,6 +8,7 @@
 
 .homeBody{
     background-image: linear-gradient(to left, grey, to right);
+    height: 100%;
 }
 
 .contendorHome .headerHome{
