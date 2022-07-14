@@ -114,7 +114,6 @@ section{
 }
 
 .sectionRutini{
-    transform: rotate(90deg);
     grid-area: sectionRutini;
     align-items: center;
     justify-content: center;
