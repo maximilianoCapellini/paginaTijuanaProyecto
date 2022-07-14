@@ -9,7 +9,7 @@
 
 .menu:hover{
     transform: translate(30px,30px);
-    background-color:orange;
+    background-color:whitesmoke;
     transition: 3s;
 }
 
@@ -230,6 +230,8 @@ footer a{
 
 
 .tablaAlinerar{
+    transform: scale(3);
+    transform: translate(10px, 20px);
     text-align: center;
     table-layout: none;
     font-weight: bold;
