@@ -6,12 +6,10 @@
 
 /*estilos para nuestra home */
 
-.homeBody{
-    background-image: linear-gradient(to left, grey, to right);
-    height: 100%;
-}
+
 .menu:hover{
     transform: translate(50px,40px);
+    background-color:orange;
 }
 
 .contendorHome .headerHome{
@@ -48,7 +46,7 @@
 
 
 header{
-    background-color: grey;
+    background-image:linear-gradient(to left, grey, to right)
     grid-area: headerhome;
     display: flex;
     flex-direction: column;
