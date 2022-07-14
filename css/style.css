@@ -8,8 +8,9 @@
 
 
 .menu:hover{
-    transform: translate(50px,40px);
+    transform: translate(30px,30px);
     background-color:orange;
+    transition: 3s;
 }
 
 .contendorHome .headerHome{
@@ -46,7 +47,7 @@
 
 
 header{
-    background-image:linear-gradient(to left, grey, to right)
+    background-color: grey;
     grid-area: headerhome;
     display: flex;
     flex-direction: column;
@@ -113,6 +114,7 @@ section{
 }
 
 .sectionRutini{
+   transform: scale(1.8);
     grid-area: sectionRutini;
     align-items: center;
     justify-content: center;
