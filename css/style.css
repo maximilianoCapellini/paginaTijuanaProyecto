@@ -229,11 +229,6 @@ footer a{
 }
 
 
-.tablaAlinerar:hover{
-    transform: scale(3);
-    transform: translate(20px, 40px);
-    background-image: linear-gradient(to left, white, right);
-}
 
 .tablaAlinerar{
     text-align: center;
@@ -256,6 +251,14 @@ footer a{
     font-weight: bold;
 
 }
+
+.fernetProductosTitulo:hover{
+    transform: scale(3);
+    transform: translate(20px, 40px);
+    background-image: linear-gradient(to left, white, right);
+}
+
+
 
 .fernetProductosTitulo{
     background-color: orange;
