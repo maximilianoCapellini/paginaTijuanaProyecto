@@ -6,6 +6,10 @@
 
 /*estilos para nuestra home */
 
+.homeBody{
+    background-image: linear-gradient(to left, grey, to right);
+}
+
 .contendorHome .headerHome{
     display: grid;
     grid-template-columns:7fr;
