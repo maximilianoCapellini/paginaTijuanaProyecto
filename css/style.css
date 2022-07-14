@@ -229,14 +229,16 @@ footer a{
 }
 
 
-.tablaAlinerar{
+.tablaAlinerar:hover{
     transform: scale(3);
-    transform: translate(10px, 20px);
+    transform: translate(20px, 40px);
+    background-image: linear-gradient(to left, white, right);
+}
+
+.tablaAlinerar{
     text-align: center;
     table-layout: none;
     font-weight: bold;
-
-    
 }
 .tablaProductos{
     grid-area: tablaProductos;
