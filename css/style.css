@@ -124,7 +124,7 @@ section{
         transform: scale(1);
     }
     to{
-        transform: scale(2);
+        transform: scale(1.5);
     }
     
 }
@@ -232,6 +232,21 @@ footer a{
 }
 .aperitivosProductos{
     text-align: center;
+}
+.imagenAperitivos{
+    animation-name: imagenAperitivos;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes imagenAperitivos{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+    
 }
 
 /*elementos main productos*/
