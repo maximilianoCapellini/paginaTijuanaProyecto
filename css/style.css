@@ -113,6 +113,22 @@ section{
     background-color: orangered;
 }
 
+.imagenRutini{
+    animation-name: imagenRutini;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes imagenRutini{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+    
+}
+
 .sectionRutini{
     grid-area: sectionRutini;
     align-items: center;
