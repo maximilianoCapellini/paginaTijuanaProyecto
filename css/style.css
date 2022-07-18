@@ -308,6 +308,11 @@ footer a{
 /*estilos para eventos*/
 .eventosPiePagina{
     background-color: red;
+    text-align: center;
+}
+.headerEventos{
+    background-color: grey;
+    
 }
 .eventosTitulo{
     text-align: center;
@@ -316,11 +321,11 @@ footer a{
     border: 10px solid black;
 
 }
-.menuEventos{
+.conteiner-fluid{
     background-color: orange;
     padding: 100px;
-
 }
+
 
 
 
