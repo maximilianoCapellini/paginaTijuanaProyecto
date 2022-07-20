@@ -336,10 +336,12 @@ footer a{
 /*estilos para contacto*/
 .contenedorContacto{
     display: grid;
-
-    grid-template-areas: "headerContacto"
-                         "mainContacto"
-                         "footerContacto";
+    grid-template-columns: 2.5fr 2.5fr;
+    grid-template-rows: 1fr 1.5fr 2fr 0.5fr;
+    grid-template-areas: "headerContacto headerContacto"
+                         "mainContacto mainContacto"
+                         "sectionContacto sectionContactoDos"
+                         "footerContacto footerContacto";
 }
 
 .headerContacto{
@@ -348,8 +350,17 @@ footer a{
 .mainContacto{
     grid-area: mainContacto;
 }
+.sectionContacto{
+    grid-area: sectionContacto;
+}
+.sectionContactoDos{
+    grid-area: sectionContactoDos;
+}
 footerContacto{
     grid-area: footerContacto;
+}
+.navContacto{
+    background-color: grey;
 }
 
 
