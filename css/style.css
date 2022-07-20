@@ -334,6 +334,39 @@ footer a{
 
 
 /*estilos para contacto*/
+.contenedorContacto{
+    display: grid;
+
+    grid-template-areas: "headerContacto"
+                         "mainContacto"
+                         "footerContacto";
+}
+
+.headerContacto{
+    grid-area: headerContacto;
+}
+.mainContacto{
+    grid-area: mainContacto;
+}
+footerContacto{
+    grid-area: footerContacto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contactoPiePagina{
     background-color: red;
 }
