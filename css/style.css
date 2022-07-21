@@ -336,46 +336,37 @@ footer a{
 /*estilos para contacto*/
 .contenedorContacto{
     display: grid;
-    grid-template-columns: 2.5fr 2.5fr;
+    grid-template-columns: 5fr;
     grid-template-rows: 1fr 1.5fr 2fr 0.5fr;
-    grid-template-areas: "headerContacto headerContacto"
-                         "mainContacto mainContacto"
-                         "sectionContacto sectionContactoDos"
-                         "footerContacto footerContacto";
+    grid-template-areas: "headerContacto "
+                         "mainContacto "
+                         "card-group"
+                         "footerContacto";
 }
 
 .headerContacto{
     grid-area: headerContacto;
+    text-align: center;
+    display: flex;
+}
+.headerContacto .navbar{
+    justify-content: center;
 }
 .mainContacto{
     grid-area: mainContacto;
 }
-.sectionContacto{
-    grid-area: sectionContacto;
-}
-.sectionContactoDos{
-    grid-area: sectionContactoDos;
-}
-footerContacto{
+
+.footerContacto{
     grid-area: footerContacto;
 }
 .navContacto{
     background-color: grey;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-group{
+    background-color: orange;
+    grid-area: card-group;
+}
 
 
 .contactoPiePagina{
@@ -481,6 +472,27 @@ footerContacto{
 
 }
 
+/*media queris seccion contacto*/
+@media screen and (max-width:600px){
+    .bodyContacto{
+        background-color: grey;
+    }
+    .card-group{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:300px){
+    .bodyContacto{
+        background-color: whitesmoke;
+    }
+    .contactosTitulo{
+        font-size: small;
+        font-weight: bold;
+        color: grey;
+    }
+}
 
 
 
